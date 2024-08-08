@@ -1,0 +1,7 @@
+server:
+  ssl:
+    key-alias: java-ssl
+    key-store: classpath:keystore.jks
+    key-store-type: JKS
+    key-password: password
+  port: 8980
